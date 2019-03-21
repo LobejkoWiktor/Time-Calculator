@@ -1,0 +1,29 @@
+.finishButton {
+    background-color: white;
+    color: black;
+    border: 2px solid #4CAF50; /* Green */
+    border-radius: 4px;
+    font-size: 30px;
+    margin-left: 150px;
+    margin-bottom: 50px;
+}
+
+.finishButton:hover {
+    background-color: #4CAF50;
+    border-radius: 4px;
+    cursor: pointer;
+    color: white;
+}
+
+input {
+    width: 70px;
+    text-align: right;
+    
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    /* display: none; <- Crashes Chrome on hover */
+    -webkit-appearance: none;
+    margin: 1px; /* <-- Apparently some margin are still there even though it's hidden */
+}
