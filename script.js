@@ -71,10 +71,10 @@ function onbClick() {
         let restHours = minutesToCalculate / 60;
         let finalHours = hours + restHours;
 
-        document.getElementById("result").innerHTML = finalHours + " godzin " 
-        + restMinutes + " minut";
+        document.getElementById("result").innerHTML = finalHours + " hours " 
+        + restMinutes + " minutes";
     } else if (error == 1) {
-        document.getElementById("result").innerHTML = "Sprawdz godziny"
+        document.getElementById("result").innerHTML = "Check Input"
     } else if (error == 2) {
         document.getElementById("result").innerHTML = "error"
     }
