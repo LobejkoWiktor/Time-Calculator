@@ -1,2 +1,2 @@
 # Time-Calculator
-Calculates difference in hours of multiple inputs, math based, js
+Calculates sum difference in hours of multiple inputs, math based, js
